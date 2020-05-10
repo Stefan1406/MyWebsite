@@ -1,0 +1,57 @@
+.line {
+    border-bottom: 1px solid gray;
+}
+#back {
+    background-image: url(../img/imgs/hero.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+}
+#hero-text {
+   
+font-size: 18px;
+    padding: 8px;
+}
+
+#menu {
+    font-size: 22px;
+}
+@media screen and ( min-width:1000px) {
+    #hero-text {
+    position: relative;
+    top: 80px;
+    left: 50px;
+        font-size: 33px;
+            padding: 8px;
+        }
+        #back {
+           
+            height: 70vh;
+        }
+}
+@media screen and ( max-width:999px) {
+    #Myweb {
+        font-size: 35px;
+    }
+   
+}
+@media screen and (   min-width:700px) and ( max-width:999px) {
+    
+        #back {
+           
+            height: 300px;
+        }
+        #hero-text {
+   
+            font-size: 22px;
+                padding: 8px;
+            }
+}
+@media screen and ( max-width:476px) {
+    #hero-text {
+   
+        font-size: 14px;
+            padding: 8px;
+        }
+   
+}
